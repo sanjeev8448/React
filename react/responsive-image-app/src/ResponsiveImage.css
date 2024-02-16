@@ -1,0 +1,24 @@
+/* ResponsiveImage.css */
+
+/* Center the image container */
+.responsive-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* 100% of the viewport height */
+  }
+  
+  /* Make the image responsive */
+  .responsive-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Media Query for Large Desktop Screens */
+  @media (min-width: 1200px) {
+    .responsive-image-container {
+      height: 100vh;
+    }
+  }
+  
+  
